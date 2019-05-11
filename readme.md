@@ -107,3 +107,5 @@ sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/
 - contrl + 上/下  同样
 - comand + option+A 自定义打开应用集
 - alt + l  自定义锁屏
+
+- comand + back 删除（delete无用）
