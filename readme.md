@@ -97,7 +97,7 @@ sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/
 
 ---
 #### 4 快捷键
-- comand + contrl + f   全屏和退出全屏（只对部分应用有效）
+- command + contrl + f   全屏和退出全屏（只对部分应用有效）
 - contrl + t  打开新标签（浏览器和终端）
 - contrl + e 关闭标签
 - contrl + d  左右分屏（终端） 
@@ -105,7 +105,8 @@ sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/
 
 - contrl + <--/--> 切换全屏应用和桌面
 - contrl + 上/下  同样
-- comand + option+A 自定义打开应用集
+- command + option+A 自定义打开应用集
 - alt + l  自定义锁屏
 
-- comand + back 删除（delete无用）
+- command + back 删除（delete无用）
+- command + shift + back (清空)
