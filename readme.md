@@ -93,3 +93,17 @@ sudo sh ./patch.sh
 ##### 3.10：终端配色方案
 参考[地址](https://www.jianshu.com/p/150e9e1ac79f)
 
+sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+---
+#### 4 快捷键
+- comand + contrl + f   全屏和退出全屏（只对部分应用有效）
+- contrl + t  打开新标签（浏览器和终端）
+- contrl + e 关闭标签
+- contrl + d  左右分屏（终端） 
+- contrl + q 退出应用
+
+- contrl + <--/--> 切换全屏应用和桌面
+- contrl + 上/下  同样
+- comand + option+A 自定义打开应用集
+- contrl + l  自定义锁屏
