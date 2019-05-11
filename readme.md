@@ -8,7 +8,7 @@
 
 #### 2 `安装说明`
 ##### 2.1 `安装工具一会放进来`
-制作u盘，替换ufi。EFI见git,自己把它传上去
+制作u盘，替换ufi。EFI文件在github里，自行下载
 ##### 2.2 `安装显卡和驱动`
 
 
@@ -106,4 +106,4 @@ sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/
 - contrl + <--/--> 切换全屏应用和桌面
 - contrl + 上/下  同样
 - comand + option+A 自定义打开应用集
-- contrl + l  自定义锁屏
+- alt + l  自定义锁屏
