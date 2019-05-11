@@ -1,0 +1,21 @@
+该补丁包是解决miix 520运行黑苹果系统一大bug的，bug具体表现是：睡眠唤醒后自带的键盘与触摸板失效，重新拔插后又能正常工作。
+
+经过了两天的不断尝试，用了各种办法，最终找到了一个可行的解决方案：
+
+原理说明：
+	通过sleepwatcher监控电脑的睡眠与唤醒，在电脑唤醒时执行自定义脚本，脚本内容是通过软件方式实现usb设备的重新连接。费了很大力气才找到这个重连usb设备的软件
+
+使用方法：
+
+	前提：
+		第一。已安装brew
+			安装方法：终端执行 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		第二。已安装sleepwatcher
+			安装方法：终端执行 brew install sleepwatcher
+	前提条件都满足后， 打开终端，进到这个解压后文件夹的目录，执行
+sudo sh ./patch.sh
+
+
+
+测试：终端执行这个命令，能看到root身份运行的sleepwatcher就行了，重启电脑后，再执行这个看下是否成功开机自启
+ps aux | grep sleepwatcher
