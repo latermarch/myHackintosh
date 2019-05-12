@@ -135,6 +135,14 @@ chsh -s /bin/zsh
 chsh -s /bin/bash
 
 ```
+##### 3.11 timeMachine
+- 删除快照
+```bash
+#查看快照
+tmutil listlocalsnapshots /
+#删除快照
+tmutil deletelocalsnapshots name
+```
 ---
 #### 4 快捷键
 - command + contrl + f   全屏和退出全屏（只对部分应用有效）
