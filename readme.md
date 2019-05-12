@@ -91,10 +91,50 @@ sudo sh ./patch.sh
 从[这里](https://github.com/qinyuhang/ShadowsocksX-NG-R/releases/tag/1.4.4-r8)下载
 
 ##### 3.10：终端配色方案
-参考[地址](https://www.jianshu.com/p/150e9e1ac79f)
-
+- 1 安装oh-my-zsh ,让终端上有蓝色的箭头,参考[地址](https://www.jianshu.com/p/150e9e1ac79f)
+```bash
 sh -c  "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+```
+- 2 安装语法高亮
+```bash
+brew install zsh-syntax-highlighting
+vim ~/.zshrc
+#追加
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#生效 
+source .zshrc
+```
+- 3 vim配色
+```bash
+$ cd solarized
+$ cd vim-colors-solarized/colors
+$ mkdir -p ~/.vim/colors
+$ cp solarized.vim ~/.vim/colors/
+$ vi ~/.vimrc
+syntax enable
+set background=dark
+colorscheme solarized
+set nu
+set autoindent
+set ts=4
+#生效
+source ~/.vimrc
+```
+- 4 ls显示配色
+```bash
+vim ~/.bash-profile
+export CLICOLOR=1
+export LSCOLORS=gxfxaxdxcxegedabagacad
+#生效
+source ~/.bash-profile
+```
+- 5 切换zsh和bash
+```bash
+chsh -s /bin/zsh
+chsh -s /bin/bash
+
+```
 ---
 #### 4 快捷键
 - command + contrl + f   全屏和退出全屏（只对部分应用有效）
