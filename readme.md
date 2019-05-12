@@ -142,6 +142,19 @@ tmutil listlocalsnapshots /
 #删除快照
 tmutil deletelocalsnapshots name
 ```
+##### 3.12 部分usb3.0驱动异常（只对10.13版本有效）
+参考[地址](http://tangwumo.com/high-sierra-13-13-6-usb30.html)
+```bash
+# 在config.plist载入到Clover Configurator后，在左侧找到“Kernel and Kext Patches”并点击，在右侧窗口点“KextToPatch”，再点右侧窗口左下角的“+”,然后在窗口里面会出现一项新值，在这项新值的各项中对照输入：
+
+Name：com.apple.driver.usb.AppleUSBXHCI
+
+Find [HEX]：837D880F 0F83A704 0000
+
+Replace [HEX]：837D880F 90909090 9090
+
+Comment：USB 10.13.6+ by PMHeart
+```
 ---
 #### 4 快捷键
 - command + contrl + f   全屏和退出全屏（只对部分应用有效）
