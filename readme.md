@@ -18,8 +18,7 @@ bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/m
 # 安装cuda,见目录
 ```
 ##### 2.3 `安装声卡驱动`
-
-我的声卡是acl 887注入驱动时使用的是11 
+- 我的声卡是acl 887注入驱动时使用的是11 
 ---
 
 #### 3 优化说明
