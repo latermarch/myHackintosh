@@ -179,8 +179,10 @@ sudo spctl --master-disable
 #### 5 xcode快捷键
 - command + option + 左/右 ：折叠函数代码块
 - shift+command + option + 左/右 ：折叠所有代码块
-- cmmand +a,ctrl + I ：格式化,全选再格式化
 - command + \: 设置或取消断点
 - command + R: 编译并运行（不触发断点）
 - command + Y: 编译并调试（触发断点）
 - command + \: 注释
+- ctrl+A/E   :回到行首行尾
+- ctrl+K :删除一行
+- cmmand +a,ctrl + I ：格式化,全选再格式化
