@@ -155,6 +155,10 @@ Replace [HEX]：837D880F 90909090 9090
 
 Comment：USB 10.13.6+ by PMHeart
 ```
+##### 3.13 第三方应用打不开，安全与隐私里准许任何来源
+```bash
+sudo spctl --master-disable
+```
 ---
 #### 4 快捷键
 - command + contrl + f   全屏和退出全屏（只对部分应用有效）
@@ -171,3 +175,12 @@ Comment：USB 10.13.6+ by PMHeart
 - command + back 删除（delete无用）
 - command + shift + back  清空
 - command + n  新建访达窗口
+
+#### 5 xcode快捷键
+- command + option + 左/右 ：折叠函数代码块
+- shift+command + option + 左/右 ：折叠所有代码块
+- cmmand +a,ctrl + I ：格式化,全选再格式化
+- command + \: 设置或取消断点
+- command + R: 编译并运行（不触发断点）
+- command + Y: 编译并调试（触发断点）
+- command + \: 注释
