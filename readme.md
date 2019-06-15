@@ -186,3 +186,7 @@ sudo spctl --master-disable
 - ctrl+A/E   :回到行首行尾
 - ctrl+K :删除一行
 - cmmand +a,ctrl + I ：格式化,全选再格式化
+
+
+#### 6 office深色主题回归原来
+- 参考[地址](https://www.isofts.org/shutdown-office-2019-mac-dark/)
