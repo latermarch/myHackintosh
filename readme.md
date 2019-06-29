@@ -176,6 +176,10 @@ sudo spctl --master-disable
 - command + shift + back  清空
 - command + n  新建访达窗口
 
+- command +shift + 3 截屏
+- command +shift + 5 截屏和录屏
+
+
 #### 5 xcode快捷键
 - command + option + 左/右 ：折叠函数代码块
 - shift+command + option + 左/右 ：折叠所有代码块
